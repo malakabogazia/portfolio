@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malak Abogazia — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <span class="wordmark">M.A</span>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">web developer</p>
+        <h1>
+          I don't say<br>
+          <span class="dont">"I can't."</span><br>
+          I say <span class="havent">"I haven't learned it yet."</span>
+        </h1>
+        <p class="intro">
+          Hi, I'm Malak — a web developer who believes that anything can be learned
+          with enough curiosity and persistence. I love taking on challenges that push
+          me outside my comfort zone, and even when they get hard, I stick with them
+          until I win.
+        </p>
+        <p class="intro">
+          What makes my approach a little different is the creative touch I bring to
+          everything I build. I see problems the way an artist sees a blank canvas —
+          with curiosity, imagination, and a bit of magic in how I approach solving
+          them. That perspective shapes how I think about user experience, design, and
+          the small details that make an application feel alive, not just functional.
+        </p>
+        <p class="intro">
+          I'm early in my journey as a developer, and I'm excited about that, because
+          every project teaches me something new, and every challenge makes me sharper.
+        </p>
+        <div class="hero-links">
+          <a class="btn-primary" href="#work">See my work</a>
+          <a class="btn-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-spark" aria-hidden="true">
+        <div class="spark-mark">
+          <span class="spark spark-1">✦</span>
+          <span class="spark spark-2">✦</span>
+          <span class="spark spark-3">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <p class="eyebrow">selected work</p>
+      <h2>Projects</h2>
+
+      <article class="project-card">
+        <div class="project-index">01</div>
+        <div class="project-body">
+          <h3>Wiki</h3>
+          <p class="project-tag">Django · Markdown · Search</p>
+          <p>
+            An online encyclopedia where entries are written in Markdown and rendered
+            as styled HTML. Includes full-text search with exact and partial matches,
+            a page editor, and a random-entry generator.
+          </p>
+          <div class="project-links">
+            <a href="https://malakwael18.pythonanywhere.com/wiki/" target="_blank" rel="noopener">Live demo →</a>
+            <a href="https://github.com/MAWA-malaka-wael/Wiki" target="_blank" rel="noopener">View code →</a>
+          </div>
+          <p class="project-note">Explore these pages directly:</p>
+          <ul class="url-list">
+            <li><a href="https://malakwael18.pythonanywhere.com/wiki/" target="_blank" rel="noopener">/wiki/</a> — homepage &amp; entry list</li>
+            <li><a href="https://malakwael18.pythonanywhere.com/wiki/Python" target="_blank" rel="noopener">/wiki/Python</a> — sample entry</li>
+            <li><a href="https://malakwael18.pythonanywhere.com/wiki/new" target="_blank" rel="noopener">/wiki/new</a> — create a page</li>
+            <li><a href="https://malakwael18.pythonanywhere.com/wiki/random" target="_blank" rel="noopener">/wiki/random</a> — random entry</li>
+            <li><a href="https://malakwael18.pythonanywhere.com/wiki/edit/Python" target="_blank" rel="noopener">/wiki/edit/Python</a> — edit a page</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-index">02</div>
+        <div class="project-body">
+          <h3>PinkyMail</h3>
+          <p class="project-tag">Django · JavaScript · REST-style API</p>
+          <p>
+            A single-page email client. Users can send, archive, and reply to emails
+            with the interface updating instantly through JavaScript, with no page
+            reloads at any point.
+          </p>
+          <div class="project-links">
+            <a href="https://malakwael18.pythonanywhere.com/" target="_blank" rel="noopener">Live demo →</a>
+            <a href="https://github.com/MAWA-malaka-wael/PinkyMail" target="_blank" rel="noopener">View code →</a>
+          </div>
+          <p class="project-note">Tip: this demo has one test account, so send an email to the same address you log in with to see it appear.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-index">03</div>
+        <div class="project-body">
+          <h3>Shopping Cart</h3>
+          <p class="project-tag">Java · Swing · Desktop App</p>
+          <p>
+            A desktop shopping cart application built with Java Swing, originally
+            created as a team project and later refactored solo for cleaner naming
+            conventions, structure, and code organization.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/MAWA-malaka-wael/Shoping_cart" target="_blank" rel="noopener">View code →</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="skills" class="skills">
+      <p class="eyebrow">what I work with</p>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Concepts</h4>
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>Data Structures &amp; Algorithms</li>
+            <li>SQL (basics)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks &amp; Tools</h4>
+          <ul>
+            <li>Django</li>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>PythonAnywhere</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Also bring to the table</h4>
+          <ul>
+            <li>Visual design instinct</li>
+            <li>Bilingual — Arabic &amp; English</li>
+            <li>Debugging under pressure</li>
+            <li>Fast, self-directed learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="contact">
+    <p class="eyebrow">let's talk</p>
+    <h2>Get in touch</h2>
+    <div class="contact-links">
+      <a href="https://github.com/MAWA-malaka-wael" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/malak-wael-31317b328/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="email-line">Email: <span class="email-text">malak.wael.00001@gmail.com</span></p>
+    <p class="footer-note">Built by Malak Abogazia.</p>
+  </footer>
+
+</body>
+</html>
